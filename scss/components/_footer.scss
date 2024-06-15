@@ -1,0 +1,56 @@
+footer{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.form-item{
+   display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.form-item button{
+    font-size: 400;
+    background-color: blue;
+}
+
+.item-pie-pagina nav{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+
+}
+
+.name-list{
+    margin: 5px 0 5px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.item-pie-pagina li{
+    list-style-type: none;
+}
+
+
+.footer-contacto{
+    display: flex;
+    justify-content:space-around;
+    border-top: 1px solid black;
+    margin-top: 50px;
+
+}
+
+.footer-contacto section{
+    margin: 30px;
+    position: relative;
+    right: 100px;
+}
+
+.footer-contacto img{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
