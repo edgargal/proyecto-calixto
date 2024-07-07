@@ -1,18 +1,289 @@
-/* Error: Undefined variable.
- *   ,
- * 2 |     background-color:$gris;
- *   |                      ^^^^^
- *   '
- *   scss\utilities\_global.scss 2:22  @import
- *   scss\estilos.scss 5:9             root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 2 \2502      background-color:$gris;\d\a   \2502                       ^^^^^\a   \2575 \a   scss\\utilities\\_global.scss 2:22  @import\a   scss\\estilos.scss 5:9             root stylesheet";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+header {
+  background-color: rgba(110, 109, 109, 0.233);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  align-items: center;
+}
+
+.logo-item {
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  position: relative;
+  right: 150px;
+}
+
+h1 {
+  font-size: 40px;
+  font-style: italic;
+  position: relative;
+  right: 24%;
+}
+
+.menu-item {
+  list-style-type: none;
+  display: flex;
+  font-weight: 700;
+}
+
+.menu-item a {
+  margin: 30px;
+  border: 1px solid rgb(7, 7, 7);
+  border-radius: 15px 10px;
+  margin-right: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.item-acceso {
+  position: relative;
+  left: 100px;
+}
+
+.whatsapp a img {
+  position: relative;
+  left: 1750px;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  background-color: rgb(114, 204, 114);
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.imagen-principal {
+  border: 2px solid rgb(7, 7, 7);
+  margin-top: 20px;
+}
+
+.imagen-principal img {
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.barra-item {
+  background-color: rgba(110, 109, 109, 0.233);
+  list-style-type: none;
+  padding: 25px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin: 30px;
+}
+
+.imagenes-dos {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.imagenes-dos img {
+  position: relative;
+  left: 150px;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.section-redes nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+}
+
+.redes-section ul li a {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  text-decoration: none;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.main-acceso {
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  border-bottom-width: 30px;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  position: absolute;
+  left: 40%;
+}
+
+.nombre-dos {
+  padding-top: 20px;
+  padding-bottom: 200px;
+  font-style: oblique;
+  font-size: 20px;
+}
+
+p {
+  padding-bottom: 30px;
+}
+
+form {
+  display: grid;
+  margin: 30px;
+}
+
+input {
+  margin-bottom: 30px;
+}
+
+button {
+  margin-bottom: 15px;
+}
+
+.recuperar-acceso {
+  border-top: 1px solid black;
+  padding: 5px;
+}
+
+.menu-contacto {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.redes-de-contacto {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.redes-de-contacto a {
+  text-decoration-line: none;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.container-productos {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  margin: 5px;
+  margin-bottom: 40px;
+}
+
+.container-productos div {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.container-productos div:hover {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+div img {
+  max-width: 100%;
+  margin-top: 3px;
+}
+
+div h2 {
+  display: grid;
+  justify-content: center;
+}
+
+div p {
+  display: grid;
+  justify-content: center;
+}
+
+div button {
+  display: grid;
+  justify-content: center;
+  padding: 2px;
+  margin-bottom: 5px;
+}
+
+main img {
+  height: 300px;
+  width: 300px;
+}
+
+footer {
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.form-item {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.form-item button {
+  font-size: 400;
+  background-color: rgb(2, 2, 255);
+}
+
+.item-pie-pagina nav {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.name-list {
+  margin: 5px 0 5px 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.item-pie-pagina li {
+  list-style-type: none;
+}
+
+.footer-contacto {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgb(7, 7, 7);
+  margin-top: 50px;
+}
+
+.footer-contacto section {
+  margin: 30px;
+  position: relative;
+  right: 100px;
+}
+
+.footer-contacto img {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "proyecto-calixto",
+			"path": "../../../repositorio/proyecto-calixto"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "calixto proyecto"
+	}
+}

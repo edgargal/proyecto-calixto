@@ -43,7 +43,7 @@ h1 {
 
 .menu-item a {
     margin: 30px;
-    border: 1px solid black;
+    border: 1px solid $negro;
     border-radius: 15px 10px;
     margin-right: 5px;
     padding: 5px;
@@ -67,7 +67,7 @@ h1 {
     height:60px;
     bottom:40px;
     
-    background-color:#25d366;
+    background-color:$verde;
     color:#FFF;
     border-radius:50px;
     text-align:center;

@@ -13,7 +13,7 @@ footer{
 
 .form-item button{
     font-size: 400;
-    background-color: blue;
+    background-color: $azul;
 }
 
 .item-pie-pagina nav{
@@ -37,7 +37,7 @@ footer{
 .footer-contacto{
     display: flex;
     justify-content:space-around;
-    border-top: 1px solid black;
+    border-top: 1px solid $negro;
     margin-top: 50px;
 
 }
